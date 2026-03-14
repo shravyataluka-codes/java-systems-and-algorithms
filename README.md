@@ -10,12 +10,13 @@ This repository is a structured space for practicing **Data Structures and Algor
 
 The goal is not to collect solutions, but to write **clean, testable, and well-documented** implementations.
 
-## Purpose
-- Strengthen DSA fundamentals
-- Improve problem-solving clarity
-- Practice writing clean Java code
-- Build discipline with testing and version control
-- Maintain a structured and scalable codebase
+## What I'm Practicing Here
+
+• Data structures and algorithm fundamentals  
+• Writing clean Java implementations  
+• Unit testing algorithmic code with JUnit  
+• Edge case thinking and complexity analysis  
+• Maintaining a structured codebase
 
 ## Project Structure
 
@@ -27,7 +28,13 @@ src/main/java/com/shravya/systems/
 ├── core_java/
 └── system_design_basics/
 ```
+## Repository Architecture
 
+This repository is organized as a structured Java learning workspace.
+It separates data structures, algorithm patterns, core Java concepts,
+and system design fundamentals while emphasizing engineering practices.
+
+![Repository Architecture](docs/java-systems-and-algorithms-architecture.png)
 ### Folder Meaning
 - **`data_structures`** – Implementation of core structures (arrays, trees, graphs, etc.)
 - **`algorithms`** – Core procedures (searching, sorting, recursion, DP, etc.)
