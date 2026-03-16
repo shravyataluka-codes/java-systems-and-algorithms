@@ -6,7 +6,7 @@ package com.shravya.systems.algorithms.sorting;
  * Pattern Used: Repeated swapping of adjacent elements
  *
  * Time Complexity:
- *   - Best Case: O(n) --> if the array is already sorted
+ *   - Best Case: O(n^2)
  *   - Average Case: O(n^2)
  *   - Worst Case: O(n^2)
  *
@@ -14,9 +14,11 @@ package com.shravya.systems.algorithms.sorting;
  *
  * Approach:
  * -- Initialize the array in the constructor.
- * -- Compare each element with its adjacent element.
- * -- If the first element is larger than the second, swap them and count the swap.
- * -- Keep repeating this process until the array is completely sorted.
+ * -- Start from the first element of the array.
+ * -- Find the smallest element in the remaining part of the array.
+ * -- Swap that smallest element with the current position.
+ * -- Move to the next position and repeat the process.
+ * -- Continue until all elements are placed in their correct position.
  *
  * Edge cases:
  * - empty array
@@ -26,7 +28,7 @@ package com.shravya.systems.algorithms.sorting;
  * - already sorted array (optimized version detects this)
  */
 
-import java.util.Random;
+
 public class SelectionSort {
     private int[] arr;
     private int swapcount;
