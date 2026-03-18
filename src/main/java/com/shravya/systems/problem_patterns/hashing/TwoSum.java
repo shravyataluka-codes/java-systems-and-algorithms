@@ -10,12 +10,10 @@ import java.util.HashSet;
  * Space Complexity: O(n)
  *
  * Approach:
- * --
- * --
- * --
- * --
- *
- *
+ * --Traverse through each element in the array.
+ * --For each element, find the value needed to reach the target.
+ * --Check if that value is already present in the set.
+ * --If yes return true, otherwise move to the next element.
  *
  * Edge Cases:
  * -- duplicate array
